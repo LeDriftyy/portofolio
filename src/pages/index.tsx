@@ -78,7 +78,7 @@ export default function Home(props: { pinnedRepos: PinnedRepository[] }) {
   return (
     <>
       <Outter>
-        <PageHead name="Vibing" />
+        <PageHead name="Chillin'" />
         <Container>
           <Sections>
             <TopSide>
@@ -89,14 +89,14 @@ export default function Home(props: { pinnedRepos: PinnedRepository[] }) {
 
             <ProfileInfo>
               <NameAndStatus>
-                <Name>Dustin Rouillard</Name>
+                <Name>doris</Name>
                 <Tippy
                   placement="right"
                   content={
                     status == 'dnd'
                       ? 'Do not disturb'
-                      : status == 'online' && activeOnMobile
-                      ? 'Online on Mobile'
+                      : status == 'dnd'
+                      ? 'Do Not Disturb'
                       : status.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase())
                   }
                 >
@@ -119,10 +119,10 @@ export default function Home(props: { pinnedRepos: PinnedRepository[] }) {
               </NameAndStatus>
               <Description>
                 <Text>
-                  Hi there <Span onClick={() => spinHead()}>👋🏼</Span> I’m Dustin, I’m <Age /> years old.
+                  Hi there <Span onClick={() => spinHead()}>👋🏼</Span> I’m Doris, I’m <Age /> years old.
                 </Text>
-                <Text>Self-taught software engineer</Text>
-                <Text>Experienced with Kubernetes and Linux Systems</Text>
+                <Text>Self-taught graphic designer</Text>
+                <Text>Experienced Paint.net and Photoshop</Text>
                 <SocialWrapped />
               </Description>
               <Presence />

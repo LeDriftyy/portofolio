@@ -1,11 +1,9 @@
-# Dustin's Personal Site
+# doris
 
-The code behind my personal site. :)
+gfx artist using paint.net
 
-Hosted on Vercel - [dstn.to](https://dstn.to)
+13 years old
 
-## Powered By
+## powered By
+internet lol
 
-- [API](https://dstn.to/api) -- Rest API
-- [Gateway](https://dstn.to/gateway) -- Elixir Realtime Gateway
-- [Lanyard](https://github.com/phineas/lanyard) -- Lanyard (for Discord Presence)
